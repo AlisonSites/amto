@@ -1,0 +1,44 @@
+:root {
+  /* Marca AMTO */
+  --color-primary: #106ccc;
+  --color-primary-rgb: 16, 108, 204;
+  --color-primary-light: #4f93e0;
+  --color-primary-dark: #032f66;
+  --color-white: #ffffff;
+
+  /* Neutros derivados */
+  --color-bg: #eef3f9;
+  --color-surface: #ffffff;
+  --color-border: #dbe5f0;
+  --color-text: #16263b;
+  --color-text-light: #5b7390;
+  --color-text-faint: #93a6bc;
+
+  /* Estados */
+  --color-success: #1f9d55;
+  --color-success-bg: #e7f6ec;
+  --color-danger: #d6432f;
+  --color-danger-bg: #fbe9e6;
+  --color-warning: #c98a12;
+  --color-warning-bg: #fbf1de;
+
+  /* Faixa-assinatura (gradiente usado como elemento de identidade) */
+  --gradient-faixa: linear-gradient(90deg, var(--color-primary-dark) 0%, var(--color-primary) 60%, var(--color-primary-light) 100%);
+
+  /* Tipografia */
+  --font-display: 'Poppins', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+
+  /* Forma */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 3px rgba(3, 47, 102, 0.08);
+  --shadow-md: 0 8px 24px rgba(3, 47, 102, 0.1);
+  --shadow-lg: 0 16px 40px rgba(3, 47, 102, 0.16);
+
+  /* Layout */
+  --sidebar-width: 250px;
+  --topbar-height: 64px;
+  --transition: 0.18s ease;
+}
